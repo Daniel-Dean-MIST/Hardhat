@@ -6,8 +6,8 @@ import "./TroopAttack.sol";
 
 contract TroopHelper is TroopAttack{
 
-    modifier canLevelUp(uint _troopId, bool _isLevelable) {
-        require(troops[_troopId]._isLevelable) == true;
+    modifier canLevelUp(uint _troopId) {
+        require(troops[_troopId].isLevelable == true);
         require(troops[_troopId].troopLevel >= 1);
 
         Troop storage troop = troops[_troopId];
