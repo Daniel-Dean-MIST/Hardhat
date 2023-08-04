@@ -22,7 +22,7 @@ contract TroopHelper is TroopAttack{
     //}//increaseStrength
 
     function getTroopsByOwner (address _owner) external view returns (uint[] memory)  {
-        uint[] memory result = troopCount[_owner];
+        uint[] memory result = new uint[](troopCount[_owner]);
 
         uint counter = 0;
         for (uint i = 1; i < troops.length; i++) {
