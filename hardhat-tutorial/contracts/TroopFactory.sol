@@ -44,20 +44,6 @@ contract TroopFactory is Ownable{
         troopCount[msg.sender]++; 
     }//createTroop
 
-    function _generateRngHit(Troop memory t) private view returns(uint) {
-
-       uint256 timestamp = block.timestamp;
-       uint256 difficulty = block.prevrandao;
-       uint256 random = uint256(keccak256(abi.encodePacked(timestamp, difficulty, msg.sender)));
-       
-       console.log(
-        "Random Number Genrated: ",
-        random % 100 * t.troopStrength
-        );
-
-       return random % 100 * t.troopStrength;
-    }//genrateRngHit
-
     function createInitialTroop() public {
         require(troopCount[msg.sender] == 0);
         _createTroop('Swordsman', 10, 10, 1, true);

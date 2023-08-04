@@ -2,9 +2,9 @@
 
 pragma solidity ^0.8.0;
 
-import "./TroopAttack.sol";
+import "./TroopCD.sol";
 
-contract TroopHelper is TroopAttack{
+contract TroopHelper is TroopCD{
 
     uint levelUpFee = 0.001 ether;
 

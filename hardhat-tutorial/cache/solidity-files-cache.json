@@ -37,8 +37,8 @@
       ]
     },
     "/Users/danieldean/Documents/HardHat Code/Hardhat/hardhat-tutorial/contracts/TroopFactory.sol": {
-      "lastModificationDate": 1691168693197,
-      "contentHash": "f63bb01de5eecb8c56d5f1f09bef47c8",
+      "lastModificationDate": 1691173744092,
+      "contentHash": "8782441d539f5dcd1e1660d1a04497a0",
       "sourceName": "contracts/TroopFactory.sol",
       "solcConfig": {
         "version": "0.8.19",
@@ -147,9 +147,83 @@
       ]
     },
     "/Users/danieldean/Documents/HardHat Code/Hardhat/hardhat-tutorial/contracts/TroopAttack.sol": {
-      "lastModificationDate": 1691168693197,
-      "contentHash": "ed506b7297d624129ca7468b01f52eea",
+      "lastModificationDate": 1691173746607,
+      "contentHash": "e33884eb59e1505f05c588b6700c9c42",
       "sourceName": "contracts/TroopAttack.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./TroopHelper.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TroopAttack"
+      ]
+    },
+    "/Users/danieldean/Documents/HardHat Code/Hardhat/hardhat-tutorial/contracts/TroopHelper.sol": {
+      "lastModificationDate": 1691173604623,
+      "contentHash": "35405dcc80ff9d3bec987b682d705ad4",
+      "sourceName": "contracts/TroopHelper.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./TroopCD.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TroopHelper"
+      ]
+    },
+    "/Users/danieldean/Documents/HardHat Code/Hardhat/hardhat-tutorial/contracts/TroopCD.sol": {
+      "lastModificationDate": 1691173587735,
+      "contentHash": "0e42dd6251293afa9c823daad190d747",
+      "sourceName": "contracts/TroopCD.sol",
       "solcConfig": {
         "version": "0.8.19",
         "settings": {
@@ -180,44 +254,7 @@
         "^0.8.0"
       ],
       "artifacts": [
-        "TroopAttack"
-      ]
-    },
-    "/Users/danieldean/Documents/HardHat Code/Hardhat/hardhat-tutorial/contracts/TroopHelper.sol": {
-      "lastModificationDate": 1691172550142,
-      "contentHash": "8056eb2e65fb90c93a6df4630ee13699",
-      "sourceName": "contracts/TroopHelper.sol",
-      "solcConfig": {
-        "version": "0.8.19",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./TroopAttack.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "TroopHelper"
+        "TroopCD"
       ]
     }
   }
