@@ -1,47 +1,10 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "C:\\Users\\Daniel\\Documents\\Hardhat\\hardhat-tutorial\\contracts\\Token.sol": {
-      "lastModificationDate": 1690904719966,
-      "contentHash": "e093820d94b0c2950b055d47b93220df",
-      "sourceName": "contracts/Token.sol",
-      "solcConfig": {
-        "version": "0.8.19",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "hardhat/console.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Token"
-      ]
-    },
-    "C:\\Users\\Daniel\\Documents\\Hardhat\\hardhat-tutorial\\node_modules\\hardhat\\console.sol": {
-      "lastModificationDate": 1690903126451,
-      "contentHash": "e2884fb4e1ef4b4a7c7ac3a227880b0f",
-      "sourceName": "hardhat/console.sol",
+    "/Users/danieldean/Documents/HardHat Code/Hardhat/hardhat-tutorial/contracts/Ownable.sol": {
+      "lastModificationDate": 1691168693197,
+      "contentHash": "73c7721d0f0183bdeeb71fd9480dc816",
+      "sourceName": "contracts/Ownable.sol",
       "solcConfig": {
         "version": "0.8.19",
         "settings": {
@@ -67,15 +30,15 @@
       },
       "imports": [],
       "versionPragmas": [
-        ">= 0.4.22 <0.9.0"
+        "^0.8.0"
       ],
       "artifacts": [
-        "console"
+        "Ownable"
       ]
     },
-    "C:\\Users\\Daniel\\Documents\\Hardhat\\hardhat-tutorial\\contracts\\TroopFactory.sol": {
-      "lastModificationDate": 1691100257576,
-      "contentHash": "32209f80352a9d5aee869474eed29280",
+    "/Users/danieldean/Documents/HardHat Code/Hardhat/hardhat-tutorial/contracts/TroopFactory.sol": {
+      "lastModificationDate": 1691168693197,
+      "contentHash": "f63bb01de5eecb8c56d5f1f09bef47c8",
       "sourceName": "contracts/TroopFactory.sol",
       "solcConfig": {
         "version": "0.8.19",
@@ -111,9 +74,81 @@
         "TroopFactory"
       ]
     },
-    "C:\\Users\\Daniel\\Documents\\Hardhat\\hardhat-tutorial\\contracts\\TroopAttack.sol": {
-      "lastModificationDate": 1691100765291,
-      "contentHash": "b6da08dfba774c92e1cb369706c9bb99",
+    "/Users/danieldean/Documents/HardHat Code/Hardhat/hardhat-tutorial/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1691171299204,
+      "contentHash": "896f68942c3a20e9ae3c3c5bfd3add54",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "/Users/danieldean/Documents/HardHat Code/Hardhat/hardhat-tutorial/contracts/Token.sol": {
+      "lastModificationDate": 1691168693197,
+      "contentHash": "501e81d65fcbecde8f480fb2c73d6e6d",
+      "sourceName": "contracts/Token.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Token"
+      ]
+    },
+    "/Users/danieldean/Documents/HardHat Code/Hardhat/hardhat-tutorial/contracts/TroopAttack.sol": {
+      "lastModificationDate": 1691168693197,
+      "contentHash": "ed506b7297d624129ca7468b01f52eea",
       "sourceName": "contracts/TroopAttack.sol",
       "solcConfig": {
         "version": "0.8.19",
@@ -148,44 +183,9 @@
         "TroopAttack"
       ]
     },
-    "C:\\Users\\Daniel\\Documents\\Hardhat\\hardhat-tutorial\\contracts\\Ownable.sol": {
-      "lastModificationDate": 1691091252272,
-      "contentHash": "7e8fe4705767356cb8eb295abefd7421",
-      "sourceName": "contracts/Ownable.sol",
-      "solcConfig": {
-        "version": "0.8.19",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Ownable"
-      ]
-    },
-    "C:\\Users\\Daniel\\Documents\\Hardhat\\hardhat-tutorial\\contracts\\TroopHelper.sol": {
-      "lastModificationDate": 1691100850122,
-      "contentHash": "8b86419641fb776a57cde2f98e3ad92e",
+    "/Users/danieldean/Documents/HardHat Code/Hardhat/hardhat-tutorial/contracts/TroopHelper.sol": {
+      "lastModificationDate": 1691172550142,
+      "contentHash": "8056eb2e65fb90c93a6df4630ee13699",
       "sourceName": "contracts/TroopHelper.sol",
       "solcConfig": {
         "version": "0.8.19",
